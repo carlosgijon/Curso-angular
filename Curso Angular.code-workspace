@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "4. Introducción a los tipos de datos"
+		},
+		{
+			"path": "5. Template literals de ES6"
 		}
 	],
 	"settings": {}
