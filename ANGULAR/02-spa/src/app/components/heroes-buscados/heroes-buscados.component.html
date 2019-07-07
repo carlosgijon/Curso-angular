@@ -1,0 +1,25 @@
+<h1 class="animated fadeIn fast">Buscando: <small>{{ termino }}</small></h1>
+<hr>
+
+<div *ngIf="heroes_buscados.length == 0" class="row animated fadeIn fast">
+  <div class="col-md-12">
+    <div class="alert alert-info" role="alert">
+      No existen resutados con el término {{ termino }}
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="card-columns animated fadeIn">
+
+<app-heroes-tarjeta-buscados [heroe] = 'heroe' [index]="i" *ngFor="let heroe of heroes_buscados; let i = index"></app-heroes-tarjeta-buscados>
+
+
+
+
+
+<!--  *ngFor="let heroe of heroes_buscados; let i = index"-->
+</div>

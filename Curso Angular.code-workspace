@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "5. Template literals de ES6"
+		},
+		{
+			"path": "ANGULAR/02-spa"
 		}
 	],
 	"settings": {}
